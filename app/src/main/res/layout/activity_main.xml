@@ -5,4 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.company.user.circularrevealtest.MainActivity">
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:checked="true"
+        android:text="Use getWindow().getDecorView()"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
